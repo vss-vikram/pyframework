@@ -1,0 +1,82 @@
+{
+  "100" :
+    {
+        "ErrorType": "404",
+        "UserDesc" : "The bucket specified does not exist in AWS S3."
+    },
+  "101" :
+    {
+        "ErrorType": "NoSuchBucket",
+        "UserDesc" : "The bucket specified does not exist in AWS S3."
+    },
+  "102" :
+    {
+        "ErrorType": "NoSuchKey",
+        "UserDesc" : "No such file is present in bucket."
+    },
+  "103" :
+    {
+        "ErrorType": "BucketAlreadyOwnedByYou",
+        "UserDesc" : "Bucket is already owned by your user id."
+    },
+  "104" :
+    {
+        "ErrorType": "BucketAlreadyExists",
+        "UserDesc" : "Bucket already exists."
+    },
+  "105" :
+    {
+        "ErrorType": "AuthFailure",
+        "UserDesc" : "Invalid AWS access key id or aws secret access key."
+    },
+  "106" :
+    {
+        "ErrorType": "InvalidClientTokenId",
+        "UserDesc" : "Invalid AWS access key id or aws secret access key."
+    },
+  "107" :
+    {
+        "ErrorType": "InvalidKeyPair.NotFound",
+        "UserDesc" : "Key not found on AWS"
+    },
+  "108" :
+    {
+        "ErrorType": "ParamValidationError",
+        "UserDesc" : "Incorrect number of parameter passed to the function."
+    },
+  "109" :
+    {
+        "ErrorType": "AccessDeniedException",
+        "UserDesc" : "There was an error connecting to AWS service."
+    },
+  "110" :
+    {
+        "ErrorType": "EXPIRED_TOKEN",
+        "UserDesc" : "AWS Token expired. Renew and retry."
+    },
+  "111" :
+    {
+        "ErrorType": "NoCredentialsError",
+        "UserDesc" : "Please validate the credentials."
+    },
+  "112" :
+    {
+        "ErrorType": "S3UploadFailedError",
+        "UserDesc" : "File upload to S3 got failed."
+    },
+  "113" :
+    {
+        "ErrorType": "HTTPError",
+        "UserDesc" : "Authentication error. Please check your username and password."
+    },
+  "114" :
+    {
+        "ErrorType": "NoRolesException",
+        "UserDesc" : "User has not been assigned to any roles. Please assign roles to the users and try again later."
+    },
+  "115" :
+    {
+        "ErrorType": "DatabaseError",
+        "UserDesc" : "There is error while fetching data or while connecting to Oracle database."
+    }
+}
